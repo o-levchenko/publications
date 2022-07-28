@@ -23,12 +23,3 @@ flowchart TD;
     N -->|Yes| O[Have you considered organizing a tech conference and run a fundraiser? Check out success story here: ]
     N -->|Yes| (Have you thought of organizing a hackaton and building a thing, that can help solve problems for refugees? This might be a sign to consider it)
 ```
-
-
-
-
-
-
-
-    
-```
