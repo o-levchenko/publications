@@ -26,15 +26,25 @@ flowchart TD;
 ```mermaid
 %%{init: {'theme':'neutral'}}%%
 flowchart TD;
-    B[Do you want to make a donation?] -->|No| E(Please let us know how you want to support and share this article if you find it useful)
-    B -->|Yes| C[Do you want to donate physical items?]
-    C -->|No| D[Do you want to donate money?]
+    B[Do you want to make a donation?] -->|No| E(Please let us know<br/>how you want to support<br/>and share this article<br/>if you find it useful)
+    B -->|Yes| C[Do you want to<br/>donate physical items?]
+    C -->|No| D[Do you want<br/>to donate money?]
     D -->|No| E
-    D -->|Yes, helping Animals| F[Past Link to the animal fundraisers]
-    D -->|Yes, humanitarian Cause| G[Past link to organizations]
-    D -->|Yes, medicine| H[Past link to medicine]
-    D -->|Yes, military| I[Past link to military]
+    D -->|Yes,<br/>helping animals| F[Past Link to the animal fundraisers]
+    D -->|Yes,<br/>humanitarian cause| G[Past link to organizations]
+    D -->|Yes,<br/>medicine| H[Past link to medicine]
+    D -->|Yes,<br/>military| I[<a href='https://u24.gov.ua/'>Official Ukrainian Fundraiser</a>]
     C -->|Yes| J[Are there refugees in your city?]
-    J -->|No| K(Check which items worth sending to help Ukraine)
-    J -->|Yes| L(Check local refugee welcoming centers for the items they need. Please make sure to bring them sorted as it will save time for volunteers)
+    J -->|No| K(Check which items<br/>worth sending<br/>to help Ukraine)
+    J -->|Yes| L(Check local refugee<br/>welcoming centers for<br/>the items they need.<br/>Please make sure to bring<br/>them sorted as it will<br/>save time<br/>for volunteers)
+    subgraph Fundraisers
+        F
+        G
+        H
+        I
+    end
+    
+    subgraph  
+        E
+    end
 ```
