@@ -1,7 +1,32 @@
 ```mermaid
+%%{init: {'theme':'neutral'}}%%
 flowchart TD;
-    A[Do you have have time for volunteering?] --> |No| B[Do you want to make a donation?]
-    B -->|No| E(Please let us know how you want to support and share this article if you find it useful)
+    A[Do you have have time for volunteering?] ---> |No| W(Please check<br/>if you can help<br/>with donations or<br/>share your ideas with us!)
+    A -->|Yes| K[Do you want to volunteer from home?]
+    K -->|No| L[Do you want to come-in<br/>on a regular basis<br/>to one of the places<br/>in your city?]
+    L -->|Yes| Q(Here is the list<br/>of places in Berlin, where you can help)
+    L -->|No| M[Are you employed?]
+    M -->|No| R(Some NGOs need people<br/>to do calls / work online.<br/>Please research <br/>and share with us,<br/>so we can include it here)
+    M -->|Yes| S(You can research<br/>if there are any<br/>job opennings in your<br/>company which could be<br/>suitable for refugees,<br/>ask your company to<br/>organize trainings for refugees,<br/>see if there is any budget available<br/>to make high-impact donations<br/>or support refugees with<br/>legal assistance)
+    K -->|Yes| N[Are you a software engineer/IT specialist?]
+    N -->|No| M
+    N -->|Yes| T(Checkout this resource,<br/>which helps to cover<br/>for Ukrainian IT specialists,<br/>who cannot perform<br/>their duties due to<br/>the military service<br/>or war in general)
+    N -->|Yes| O[Have you considered<br/>organizing a tech conference<br/>and run a fundraiser?<br/>Check out success story here: ]
+    N -->|Yes| U(Have you thought<br/>of organizing a hackaton<br/>and building a thing,<br/>that can help solve problems for refugees?<br/>This might be a sign to consider it)
+    subgraph IT Ideas
+        T
+        O
+        U
+    end
+    subgraph  
+        W
+    end
+```
+
+```mermaid
+%%{init: {'theme':'neutral'}}%%
+flowchart TD;
+    B[Do you want to make a donation?] -->|No| E(Please let us know how you want to support and share this article if you find it useful)
     B -->|Yes| C[Do you want to donate physical items?]
     C -->|No| D[Do you want to donate money?]
     D -->|No| E
@@ -10,16 +35,6 @@ flowchart TD;
     D -->|Yes, medicine| H[Past link to medicine]
     D -->|Yes, military| I[Past link to military]
     C -->|Yes| J[Are there refugees in your city?]
-    J -->|No| (Check which items worth sending to help Ukraine)
-    J -->|Yes| (Check local refugee welcoming centers for the items they need. Please make sure to bring them sorted as it will save time for volunteers)
-    A -->|Yes| K[Do you want to volunteer from home?]
-    K -->|No| L[Do you want to come-in on a regular basis to one of the places in your city?]
-    L -->|Yes| (Here is the list of places in Berlin, where you can help)
-    L -->|No| M[Are you employed?]
-    M -->|No| E
-    M -->|Yes| (You can research if there are any job opennings in your company which could be suitable for refugees, ask your company to organize trainings for refugees, see if there is any budget available to make high-impact donations or support refugees with legal assistance)
-    K -->|Yes| N[Are you a software engineer/IT specialist?]
-    N -->|Yes| (Checkout this resource, which helps to cover for Ukrainian IT specialists, who unfortunately cannot perform their duties due to the military service or war in general)
-    N -->|Yes| O[Have you considered organizing a tech conference and run a fundraiser? Check out success story here: ]
-    N -->|Yes| (Have you thought of organizing a hackaton and building a thing, that can help solve problems for refugees? This might be a sign to consider it)
+    J -->|No| K(Check which items worth sending to help Ukraine)
+    J -->|Yes| L(Check local refugee welcoming centers for the items they need. Please make sure to bring them sorted as it will save time for volunteers)
 ```
