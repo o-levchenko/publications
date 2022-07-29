@@ -1,5 +1,8 @@
 ```mermaid
-%%{init: {'theme':'neutral'}}%%
+%%{init: {'theme':'neutral', 'themeVariables': { 
+'clusterBkg': '#b4d2f8', 
+'mainBkg': '#fdfade'
+}}}%%
 flowchart TD;
     A[Do you have have time for volunteering?] ---> |No| W(Please check<br/>if you can help<br/>with donations or<br/>share your ideas with us!)
     A -->|Yes| K[Do you want to volunteer from home?]
@@ -20,6 +23,10 @@ flowchart TD;
     end
     subgraph  
         W
+    end
+    subgraph Research
+        R
+        S
     end
 ```
 
