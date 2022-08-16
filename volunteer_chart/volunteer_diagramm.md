@@ -55,10 +55,10 @@ flowchart TD;
     E(Please let us know<br/>how you want to support<br/>and/or share this article<br/>if you find it useful)
     C[Do you want to<br/>donate physical items?]
     D[Do you want<br/>to donate money?]
-    F[Past Link to the animal fundraisers]
+    F(<a href='https://linktr.ee/petners.berlin'>Petners Berlin<a/><br/>Check their <a href='https://www.instagram.com/petners.berlin/'>stories</a>)
     G(<a href='https://aid.prytulafoundation.org/en/'>Humanitarian Aid Donation Links</a><br/>Please scroll to the bottom<br/><br/><a href='https://bank.gov.ua/en/about/humanitarian-aid-to-ukraine'>National Bank of Ukraine -<br/>Humanitarian fundraiser</a>)
-    H[Past link to medicine]
-    I[<a href='https://prytulafoundation.org/en/home/support_page'>Prytula Foundation</a><br/>they are very efficient!<br/><br/><a href='https://www.comebackalive.in.ua/donate'>Come Back Alive</a><br/>Another good funraiser<br/><br/><a href='https://u24.gov.ua/'>Official Ukrainian Fundraiser</a><br/><br/><a href='https://bank.gov.ua/en/about/support-the-armed-forces'>National Bank of Ukraine -<br/>Milirary fundraiser</a>]
+    H(<a href='https://www.betterplace.org/en/projects/107938'>Fundraiser for medical backpacks</a><br/><a href='https://www.instagram.com/plast_berlin_helps/?hl=en'>More</a> about their work)
+    I[<a href='https://prytulafoundation.org/en/home/support_page'>Prytula Foundation</a><br/>they are very efficient!<br/><br/><a href='https://www.comebackalive.in.ua/donate'>Come Back Alive</a><br/>Another good funraiser<br/><br/><a href='https://u24.gov.ua/'>The Initiative of the Ukrainian President</a><br/><br/><a href='https://bank.gov.ua/en/about/support-the-armed-forces'>National Bank of Ukraine -<br/>Milirary fundraiser</a>]
     J[Are there refugees in your city?]
     K(<a href='https://aid.prytulafoundation.org/en/'>Humanitarian Aid Needs</a><br/>Please read carefully,<br/>the spreadsheet contains<br/>multiple lists)
     L(Check local refugee<br/>welcoming centers for<br/>the items they need.<br/>Please make sure to bring<br/>them sorted to<br/>save time<br/>of volunteers)
