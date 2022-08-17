@@ -1,11 +1,12 @@
 ```mermaid
 %%{init: {'theme':'neutral', 'themeVariables': { 
 'clusterBkg': '#b4d2f8', 
-'mainBkg': '#fdfade'
+'mainBkg': '#fdfade',
+'edgeLabelBackground':'#e7d7fa',
+'fontFamily': 'sans-serif'
 }}}%%
 flowchart TD;
     A[Do you have have time for volunteering?]
-    B(Please let us<br/>know what are the<br/>other options for volunteering)
     C(Please check<br/>if you can help<br/>with donations or<br/>share your ideas with us!)
     D[Do you want to volunteer from home?]
     E[Do you want to come-in<br/>on a regular basis<br/>to one of the NGOs<br/>in your city?]
@@ -15,13 +16,14 @@ flowchart TD;
     N[Are you a software engineer/IT specialist?]
     M[Are you employed?]
     T(Check <a href='https://www.ukrainetechcollective.com/'>Ukraine Tech Collective</a> project,<br/>which helps to cover for<br/>Ukrainian IT specialists,<br/>who cannot perform their duties<br/>due to the military service<br/>or war in general)
-    O[Have you considered<br/>organizing a tech conference<br/>and run a fundraiser?<br/><a href='https://devfest.gdg.org.ua/'>Check out this success story</a>]
+    O(Have you considered<br/>organizing a tech conference<br/>and run a fundraiser?<br/><a href='https://devfest.gdg.org.ua/'>Check out this success story</a>)
     U(Want to create usefull tools<br/>for NGOs?<br/><a href='https://monday.com/blog/news/putting-tech-to-good-use-how-monday-com-is-supporting-ngos-in-ukraine/'>Get Inspired</a>)
+    V(Check local events/organizations<br/>if they need one-time volunteers)
     
     A ---> |No| C
     A -->|Yes| D
     D -->|No| E
-    E -->|No| B
+    E -->|No| V
     E -->|Yes| F
     M -->|No| G
     M -->|Yes| S
@@ -48,7 +50,9 @@ flowchart TD;
 ```mermaid
 %%{init: {'theme':'neutral', 'themeVariables': { 
 'clusterBkg': '#b4d2f8', 
-'mainBkg': '#fdfade'
+'mainBkg': '#fdfade',
+'edgeLabelBackground':'#e7d7fa',
+'fontFamily': 'sans-serif'
 }}}%%
 flowchart TD;
     B[Do you want to make a donation?]
@@ -62,6 +66,7 @@ flowchart TD;
     J[Are there refugees in your city?]
     K(<a href='https://aid.prytulafoundation.org/en/'>Humanitarian Aid Needs</a><br/>Please read carefully,<br/>the spreadsheet contains<br/>multiple lists)
     L(Check local refugee<br/>welcoming centers for<br/>the items they need.<br/>Please make sure to bring<br/>them sorted to<br/>save time<br/>of volunteers)
+
     B -->|No| E
     B -->|Yes| C
     C -->|No| D
