@@ -29,10 +29,10 @@
 **For IT Specialists**<br/>
 📺 Organize an on(off)line Tech Conference / Meetup as a fundraiser. _Depending on the scale, it requires some organizational skills, but maybe something for you?_ <a href="https://devfest.gdg.org.ua/">Read success story</a><br/>
 ⏰ Donate your time as an IT specialist <a href="https://www.ukrainetechcollective.com/">here</a><br/>
-💻 Find 
+💻 Get in touch with local NGOs to find out which Tech Support they need. <a href="https://monday.com/blog/news/putting-tech-to-good-use-how-monday-com-is-supporting-ngos-in-ukraine/">Read another success story here</a>
 
 **For everyone**</br> 
 🕑 Check local Ukrainian pages and see if they need volunteers / help<br/>
 👬 If you know any refugees personally, offer them help to settle down, e.g. solving bureaucratic issues, finding an accommodation etc <br/>
-🏢 Promote open positions in your company to refugees
+🏢 Promote open positions in your company to refugees <br/>
 🏗️ Get in touch with local NGOs and see how you can support
