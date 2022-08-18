@@ -36,3 +36,7 @@
 👬 If you know any refugees personally, offer them help to settle down, e.g. solving bureaucratic issues, finding an accommodation etc <br/>
 🏢 Promote open positions in your company to refugees <br/>
 🏗️ Get in touch with local NGOs and see how you can support
+______
+
+And the most important - decide for yourself how much time and/or money you can afford to donate and **do it regularly**! <br/>
+🇺🇦 Thank You! 🇺🇦
