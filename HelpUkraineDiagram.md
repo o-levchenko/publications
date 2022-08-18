@@ -56,7 +56,7 @@ flowchart TD;
 }}}%%
 flowchart TD;
     B[Do you want to make a donation?]
-    E(Please let us know<br/>how you want to support<br/>and/or share this article<br/>if you find it useful)
+    E(Please let us know<br/>how you want to support<br/>and/or share this diagram<br/>if you find it useful)
     C[Do you want to<br/>donate physical items?]
     D[Do you want<br/>to donate money?]
     F(<a href='https://linktr.ee/petners.berlin'>Petners Berlin<a/><br/>Check their <a href='https://www.instagram.com/petners.berlin/'>stories</a>)
