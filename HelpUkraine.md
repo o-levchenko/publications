@@ -6,7 +6,6 @@
 :rocket: Extremely efficient organization in Ukraine - https://prytulafoundation.org/en <br/>
 :school_satchel: Ukrainian organization in Berlin (fundaising for medical backpacks) - https://www.betterplace.org/en/projects/107938<br/>
 :ticket: Support Ukrainian Defenders https://group35.org/en/support/ <br/>
-:runner: Foundation Helping Ukrainian Army from 2014 - https://www.comebackalive.in.ua/donate  <br/>
 :man: Initiative of the President of Ukraine https://u24.gov.ua/ <br/>
 🇺🇦 Official Ukrainian Goverment Page - https://help.gov.ua/en/donations <br/>
 
